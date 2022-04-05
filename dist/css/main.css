@@ -1,0 +1,327 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  line-height: 1.15;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+  .whatWeDo-wrapper {
+    max-width: 1214px;
+    margin: 0 auto;
+  }
+}
+
+.whatWeDo {
+  padding: 3.5rem 2.2rem 5.5rem 2.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeDo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-column-gap: 2.565%;
+            column-gap: 2.565%;
+    padding: 7.1% 2.2rem;
+  }
+}
+
+.whatWeDo-heading {
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeDo-heading {
+    -webkit-box-flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+        -ms-flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+            flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+    margin-bottom: 2.565%;
+  }
+}
+
+.whatWeDo-heading__title {
+  font-size: 3.5rem;
+  line-height: 1.22;
+  font-weight: 700;
+  letter-spacing: -0.035rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeDo-heading__title {
+    padding-top: 9.6%;
+    font-size: 4.4rem;
+    letter-spacing: -0.044rem;
+  }
+}
+
+.whatWeDo-heading__subtitle {
+  font-size: 1.6rem;
+  line-height: 1.56;
+  max-width: 37.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeDo-heading__subtitle {
+    font-size: 1.8rem;
+  }
+}
+
+.whatWeDo-item {
+  border: 1px solid rgba(42, 42, 42, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.8rem 2.8rem 2.2rem 2.8rem;
+  -webkit-animation: move 0.5s;
+          animation: move 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+
+@-webkit-keyframes move {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes move {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.whatWeDo-item:nth-last-child(-n+1) {
+  margin-bottom: 0;
+}
+
+.whatWeDo-item:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.whatWeDo-item:nth-child(1) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.whatWeDo-item:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.whatWeDo-item:nth-child(2) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.whatWeDo-item:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.whatWeDo-item:nth-child(3) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.whatWeDo-item:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.whatWeDo-item:nth-child(4) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.whatWeDo-item:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.whatWeDo-item:nth-child(5) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.whatWeDo-item:nth-child(6) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.whatWeDo-item:nth-child(6) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.whatWeDo-item:nth-child(7) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.whatWeDo-item:nth-child(7) .whatWeDo-item__icon-path {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeDo-item {
+    -webkit-box-flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+        -ms-flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+            flex: calc((100% / 2) - 2.565% + (2.565% / 2));
+    padding: 2.052% 2.052% 1.85% 2.052%;
+    margin-bottom: 2.565%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .whatWeDo-item {
+    -webkit-box-flex: calc((100% / 4) - 2.565% + (2.565% / 4));
+        -ms-flex: calc((100% / 4) - 2.565% + (2.565% / 4));
+            flex: calc((100% / 4) - 2.565% + (2.565% / 4));
+    display: block;
+  }
+  .whatWeDo-item:nth-last-child(-n+4) {
+    margin-bottom: 0;
+  }
+}
+
+.whatWeDo-item__title {
+  font-size: 2.2rem;
+  line-height: 1.26;
+  font-weight: 500;
+  letter-spacing: -0.022rem;
+  padding-left: 2.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .whatWeDo-item__title {
+    padding-top: 10%;
+    padding-left: 0;
+  }
+}
+
+.whatWeDo-item__paragraph {
+  font-size: 1.4rem;
+  line-height: 1.715;
+  padding-top: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .whatWeDo-item__paragraph {
+    padding-top: 1rem;
+  }
+}
+
+.whatWeDo-item__icon-wrapper {
+  width: 55px;
+  height: 55px;
+  background: #2A2A2A;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whatWeDo-item__icon {
+  width: 37px;
+}
+
+.whatWeDo-item__icon-path {
+  -webkit-animation: dash 0.5s linear forwards;
+          animation: dash 0.5s linear forwards;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.whatWeDo-item__icon-path1 {
+  stroke-dasharray: 97;
+  stroke-dashoffset: 97;
+}
+
+.whatWeDo-item__icon-path2 {
+  stroke-dasharray: 97;
+  stroke-dashoffset: 97;
+}
+
+.whatWeDo-item__icon-path3 {
+  stroke-dasharray: 126;
+  stroke-dashoffset: 126;
+}
+
+.whatWeDo-item__icon-path4 {
+  stroke-dasharray: 129;
+  stroke-dashoffset: 129;
+}
+
+.whatWeDo-item__icon-path5 {
+  stroke-dasharray: 117;
+  stroke-dashoffset: 117;
+}
+
+.whatWeDo-item__icon-path6 {
+  stroke-dasharray: 128;
+  stroke-dashoffset: 128;
+}
+/*# sourceMappingURL=main.css.map */
